@@ -104,15 +104,31 @@ ul a:hover {
 .about-section {
     text-align: center;
 }
+
+.about-section-title {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
 .jorge-img {
     width: 100%;
     height: auto;
 }
 
-.fa-tachometer-alt, .fa-mobile-alt, .fa-handshake, .fa-gem  {
+.icon-section {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* .fa-tachometer-alt, .fa-mobile-alt, .fa-handshake, .fa-gem  {
     background-color: #87C232;
     padding: 1.5rem;
     border-radius: 50%;
+} */
+
+.fast, .responsive, .collaboration, .ux-ui {
+    padding: 1rem;
 }
 
 
