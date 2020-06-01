@@ -26,7 +26,6 @@ body {
 }
 
 .highlight {
-    /* color: aquamarine; */
     color: #87C232;
     font-weight: 600;
 }
@@ -108,6 +107,12 @@ ul a:hover {
 .jorge-img {
     width: 100%;
     height: auto;
+}
+
+.fa-tachometer-alt, .fa-mobile-alt, .fa-handshake, .fa-gem  {
+    background-color: #87C232;
+    padding: 1.5rem;
+    border-radius: 50%;
 }
 
 
