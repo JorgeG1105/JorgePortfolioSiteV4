@@ -113,6 +113,7 @@ ul a:hover {
 .jorge-img {
     width: 100%;
     height: auto;
+    -webkit-clip-path: circle(40% at 50% 40%);
 }
 
 .icon-section {
