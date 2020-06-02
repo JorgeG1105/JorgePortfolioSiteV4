@@ -122,12 +122,6 @@ ul a:hover {
     grid-template-columns: 1fr 1fr;
 }
 
-/* .fa-tachometer-alt, .fa-mobile-alt, .fa-handshake, .fa-gem  {
-    background-color: #87C232;
-    padding: 1.5rem;
-    border-radius: 50%;
-} */
-
 .fast, .responsive, .collaboration, .ux-ui {
     padding: 1rem;
 }
@@ -162,4 +156,31 @@ ul a:hover {
         text-align: end;
     }
 
+/*-----About Section-----*/
+
+    .about-section {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .about-section-title {
+        margin-top: 1rem;
+        margin-bottom: 5rem;;
+    }
+
+    .icon-section {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .jorge-info-section {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "picture info";
+    }
+
+    .jorge-img {
+        grid-area: picture;
+    }
 }
