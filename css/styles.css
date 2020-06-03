@@ -113,7 +113,6 @@ ul a:hover {
 .jorge-img {
     width: 100%;
     height: auto;
-    -webkit-clip-path: circle(40% at 50% 40%);
 }
 
 .icon-section {
@@ -125,6 +124,26 @@ ul a:hover {
 .fast, .responsive, .collaboration, .ux-ui {
     padding: 1rem;
 }
+
+/*------Skills Section-----*/
+.skills-container {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #EEEEEE;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.html {width: 90%; background-color: #87C232;}
+.css {width: 80%; background-color: #87C232;}
+.js {width: 70%; background-color: #87C232;}
+.react {width: 65%; background-color: #87C232;}
+.node {width: 75%; background-color: #87C232;}
 
 
 
@@ -173,14 +192,24 @@ ul a:hover {
         flex-direction: row;
     }
 
-    .jorge-info-section {
-        display: grid;
-        grid-template-rows: 1fr 1fr;
-        grid-template-areas: 
-        "picture info";
+    .jorge-img {
+        max-width: 20%;
+        height: auto;
     }
 
-    .jorge-img {
-        grid-area: picture;
+    .info-skills-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "jorgeinfo skills";
     }
+
+    .jorge-info-section {
+        grid-area: jorgeinfo;
+    }
+
+    .skills-section {
+        grid-area: skills;
+    }
+
 }
