@@ -105,9 +105,12 @@ ul a:hover {
     text-align: center;
 }
 
-.about-section-title {
+.about-section-title, .project-section-title {
     font-size: 2rem;
     text-transform: uppercase;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    text-decoration: underline;
 }
 
 .jorge-img {
@@ -132,10 +135,22 @@ ul a:hover {
     background-color: #EEEEEE;
 }
 
+.skills-section {
+    padding: 2rem;
+}
+
+.skills-section p {
+    font-weight: 800;
+}
+
+.jorge-info {
+    padding: 1rem;
+}
+
 .skills {
     text-align: right;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     color: white;
 }
 
@@ -144,6 +159,11 @@ ul a:hover {
 .js {width: 70%; background-color: #87C232;}
 .react {width: 65%; background-color: #87C232;}
 .node {width: 75%; background-color: #87C232;}
+
+/*-------------------------------Projects Section-------------------------------*/
+.project-section {
+    background-color: #EEEEEE;
+}
 
 
 
@@ -180,20 +200,26 @@ ul a:hover {
     .about-section {
         max-width: 1200px;
         margin: 0 auto;
+        margin-bottom: 5rem;
     }
 
     .about-section-title {
-        margin-top: 1rem;
+        margin-top: 5rem;
         margin-bottom: 5rem;;
     }
 
     .icon-section {
         display: flex;
         flex-direction: row;
+        margin-bottom: 6rem;
+    }
+
+    .icon-section p {
+        line-height: 1.5;
     }
 
     .jorge-img {
-        max-width: 20%;
+        max-width: 50%;
         height: auto;
     }
 
@@ -204,12 +230,26 @@ ul a:hover {
         "jorgeinfo skills";
     }
 
+    .jorge-info {
+        line-height: 1.5;
+    }
+
     .jorge-info-section {
         grid-area: jorgeinfo;
     }
 
     .skills-section {
         grid-area: skills;
+    }
+
+    /*-------------Project Section------------*/
+
+    .project-section {
+        text-align: center;
+    }
+
+    .project-section-title {
+        margin-bottom: 5rem;
     }
 
 }
