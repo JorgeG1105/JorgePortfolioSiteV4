@@ -111,6 +111,7 @@ ul a:hover {
     margin-top: 4rem;
     margin-bottom: 3rem;
     text-decoration: underline;
+    color: #45474A;
 }
 
 .jorge-img {
@@ -118,10 +119,22 @@ ul a:hover {
     height: auto;
 }
 
+.jorge-info {
+    color: #45474A;
+}
+
+.jorge-pic-text-div h1 {
+    color: #45474A;
+}
+
 .icon-section {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
+}
+
+.icon-section p {
+    color: #45474A;
 }
 
 .fast, .responsive, .collaboration, .ux-ui {
@@ -163,7 +176,34 @@ ul a:hover {
 /*-------------------------------Projects Section-------------------------------*/
 .project-section {
     background-color: #EEEEEE;
+    text-align: center;
 }
+
+/* .project-container {
+    display: flex;
+} */
+
+.work-1 {
+    background: url(../imgs/work1.png) center center/cover;
+    width: 100%;
+    max-width: 100%;
+    height: 240px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.work-text {
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.work-text:hover {
+    opacity: 1;
+}
+
 
 
 
