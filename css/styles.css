@@ -183,25 +183,115 @@ ul a:hover {
     display: flex;
 } */
 
+.project-section-title {
+    padding-top: 3rem;
+}
+
 .work-1 {
-    background: url(../imgs/work1.png) center center/cover;
+    background: url(../imgs/work1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100%;
     max-width: 100%;
     height: 240px;
     justify-content: center;
     align-items: center;
-    display: flex;
+}
+
+.work-2 {
+    background: url(../imgs/work2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    max-width: 100%;
+    height: 240px;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-3 {
+    background: url(../imgs/work3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    max-width: 100%;
+    height: 240px;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-4 {
+    background: url(../imgs/work4b.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    width: 100%;
+    max-width: 100%;
+    height: 240px;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-5 {
+    background: url(../imgs/work5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    max-width: 100%;
+    height: 240px;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-6 {
+    background: url(../imgs/work6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    max-width: 100%;
+    height: 240px;
+    justify-content: center;
+    align-items: center;
 }
 
 .work-text {
     justify-content: center;
     align-items: center;
     opacity: 0;
-    transition: opacity 0.5s;
+    height: 240px;
+    width: 100%;
+    transition: opacity 0.5s ease-in-out,
+                background-color 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
 }
 
 .work-text:hover {
     opacity: 1;
+    background-color: #EEEEEE;
+}
+
+.work-title {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.work-subtitle {
+    color: #87C232;
+    margin: 0;
+    font-size: .6rem;
+}
+
+.work-btn {
+    text-decoration: none;
+    color: #45474A;
+    border: 2px solid #87C232;
+    padding: 0.5rem 1rem;
 }
 
 
