@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-size: 16px;
@@ -178,10 +182,6 @@ ul a:hover {
     background-color: #EEEEEE;
     text-align: center;
 }
-
-/* .project-container {
-    display: flex;
-} */
 
 .project-section-title {
     padding-top: 3rem;
@@ -381,5 +381,24 @@ ul a:hover {
     .project-section-title {
         margin-bottom: 5rem;
     }
+
+    .project-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        margin: 5rem;
+    }
+
+    .work-desc {
+        margin: 1rem 1rem;
+    }
+
+    /* .work-1, .work-2, .work-3, .work-4, .work-5, .work-6 {
+    }
+
+    .work-text {
+        height: 300px;
+        width: 390px;
+    } */
 
 }
