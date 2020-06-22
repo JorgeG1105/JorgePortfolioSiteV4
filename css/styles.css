@@ -20,7 +20,6 @@ body {
     align-items: center;
     height: 100vh;
     font-size: 1rem;
-    /* background-color: #0A2357; */
     background-color: #222629;
 }
 
@@ -39,11 +38,11 @@ body {
     font-size: 1rem;
     cursor: pointer;
     color: white;
-    /* background-color: #0A2357; */
     background-color: #222629;
     font-family: 'Raleway', sans-serif;
     padding: 12px 20px 12px 15px;
     transition: all 0.5s;
+    outline: none;
 }
 
 .landing-btn:hover {
@@ -57,7 +56,6 @@ body {
 
 /*------------Navigation bar section-------------*/
 .navbar-section {
-    /* background-color: #1B242F; */
     background-color: #474A4F;
     border-bottom: 2px #87C232 solid;
     padding: 1px;
@@ -292,6 +290,13 @@ ul a:hover {
     color: #45474A;
     border: 2px solid #87C232;
     padding: 0.5rem 1rem;
+    transition: all 0.5s;
+    outline: none;
+}
+
+.work-btn:hover {
+    color: #fff;
+    background: #87C232;
 }
 
 .svg-div {
@@ -324,7 +329,7 @@ ul a:hover {
 }
 
 input {
-    border: 0;
+    border: none;
     box-sizing: border-box;
     display: block;
     background: #474A4F;
@@ -333,6 +338,7 @@ input {
     padding: 10px 15px;
     width: 100%;
     margin-bottom: 3px;
+    font-size: .8rem;
 }
 
 textarea {
@@ -346,6 +352,20 @@ textarea {
     width: 100%;
     min-height: 150px;
     margin-bottom: 5px;
+    font-size: .8rem;
+}
+
+.submit-btn {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.submit-btn:hover {
+    background: #87C232;
+    border: 2px solid #87C232;
 }
 
 
@@ -445,4 +465,16 @@ textarea {
         margin: 1rem 1rem;
     }
 
+    /*----------Contact Section--------------*/
+
+    .contact-form {
+        /* margin: 0 20rem; */
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .submit-btn {
+        width: 120px;
+        align-self: flex-end;
+    }
 }
