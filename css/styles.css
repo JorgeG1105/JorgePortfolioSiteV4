@@ -308,6 +308,7 @@ ul a:hover {
 .contact-section {
     background-color: #222629;
     text-align: center;
+    padding-bottom: 3rem;
 }
 
 .contact-section-title {
@@ -315,11 +316,12 @@ ul a:hover {
     font-size: 2rem;
     text-transform: uppercase;
     text-decoration: underline;
-    margin: 0;
+    margin-top: 0;
 }
 
 .contact-subtitle {
     color: #87C232;
+    margin-bottom: 2rem;
 }
 
 .contact-form {
@@ -367,7 +369,7 @@ textarea {
     background: #87C232;
     border: 2px solid #87C232;
 }
-
+/*-----------------Footer-----------------------------*/
 
 
 /*-------------------Media Queries---------------------*/
@@ -466,6 +468,10 @@ textarea {
     }
 
     /*----------Contact Section--------------*/
+
+    .contact-section-title {
+        margin-bottom: 3rem;
+    }
 
     .contact-form {
         /* margin: 0 20rem; */
