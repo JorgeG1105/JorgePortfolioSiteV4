@@ -309,6 +309,13 @@ ul a:hover {
 }
 
 /*-----------------Contact Section----------------------*/
+
+.error-msg {
+    color: red;
+    margin: 2rem;
+    font-weight: 600;
+}
+
 .contact-section {
     background-color: #222629;
     text-align: center;
