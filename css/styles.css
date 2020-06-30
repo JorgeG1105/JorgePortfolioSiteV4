@@ -377,7 +377,7 @@ textarea {
 
 footer {
     text-align: center;
-    padding: 4rem 0 4rem 0;
+    padding: 4rem 0 3rem 0;
     background-color: #474A4F;
     position: relative;
 }
@@ -414,7 +414,7 @@ footer {
     display: inline-block;
     position: absolute;
     top: -45px;
-    left: 140px;
+    left: calc(50vw - 50px);
 }
 
 .copyright-info {
