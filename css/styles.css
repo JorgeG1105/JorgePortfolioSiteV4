@@ -308,7 +308,7 @@ ul a:hover {
 .contact-section {
     background-color: #222629;
     text-align: center;
-    padding-bottom: 3rem;
+    padding-bottom: 3.5rem;
 }
 
 .contact-section-title {
@@ -370,6 +370,52 @@ textarea {
     border: 2px solid #87C232;
 }
 /*-----------------Footer-----------------------------*/
+
+footer {
+    text-align: center;
+    padding: 4rem 0 4rem 0;
+    background-color: #474A4F;
+    position: relative;
+}
+
+.footer-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright-info {
+    color: #fff;
+}
+
+.footer-year {
+    color: #87C232;
+}
+
+.fa-linkedin-in, .fa-github, .fa-chevron-up {
+    color: #fff;
+}
+
+.footer-icon-1, .footer-icon-2 {
+    padding: 1rem;
+    background: #87C232;
+    margin: 1rem;
+}
+
+.top-btn {
+    background: #87C232;
+    padding: 1rem;
+    margin: 1rem;
+    display: inline-block;
+    position: absolute;
+    top: -45px;
+    left: 140px;
+}
+
+.copyright-info {
+    margin-top: 2rem;
+}
 
 
 /*-------------------Media Queries---------------------*/
