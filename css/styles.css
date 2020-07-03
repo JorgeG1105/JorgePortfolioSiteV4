@@ -501,6 +501,11 @@ footer {
 
     .skills-section {
         grid-area: skills;
+        padding: 0;
+    }
+
+    .skills-section p:first-of-type {
+        margin-top: 0;
     }
 
     /*-------------Project Section------------*/
@@ -543,6 +548,8 @@ footer {
 }
 
 @media(orientation:landscape){
+
+    /*-----------About Section--------------*/
     .info-skills-container{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -555,5 +562,15 @@ footer {
 
     .jorge-img {
         width: 70%;
+    }
+
+    .skills-section {
+        grid-area: skills;
+        padding-top: 0;
+        padding-right: 2rem;
+    }
+
+    .skills-section p:first-of-type {
+        margin-top: 0;
     }
 }
