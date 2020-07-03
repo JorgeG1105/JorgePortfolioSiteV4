@@ -573,4 +573,9 @@ footer {
     .skills-section p:first-of-type {
         margin-top: 0;
     }
+    /*------------Project Section----------*/
+    .project-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
