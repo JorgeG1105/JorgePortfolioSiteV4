@@ -542,7 +542,7 @@ footer {
     }
 }
 
-@media(width:812px){
+@media(orientation:landscape){
     .info-skills-container{
         display: grid;
         grid-template-columns: 1fr 1fr;
