@@ -47,6 +47,7 @@ body {
     padding: 12px 20px 12px 15px;
     transition: all 0.5s;
     outline: none;
+    text-decoration: none;
 }
 
 .landing-btn:hover {
@@ -454,6 +455,11 @@ footer {
     .navbar {
         padding: 0.5rem;
         text-align: end;
+    }
+
+    .navbar-section {
+        position: fixed;
+        width: 100%;
     }
 
 /*-----About Section-----*/

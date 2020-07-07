@@ -13,25 +13,25 @@
             <nav class="navbar">
                 <ul class='menu'>
                     <li class="toggle"><a href='#'><i class="fas fa-bars fa-2x"></i></a></li>
-                    <li class='item'><a href='#'>Home</a></li>
-                    <li class='item'><a href='#'>About</a></li>
-                    <li class='item'><a href='#'>Portfolio</a></li>
-                    <li class='item'><a href='#'>Contact</a></li>
+                    <li class='item'><a href='#home' class="scroll">Home</a></li>
+                    <li class='item'><a href='#about' class="scroll">About</a></li>
+                    <li class='item'><a href='#portfolio' class="scroll">Portfolio</a></li>
+                    <li class='item'><a href='#contact' class="scroll">Contact</a></li>
                 </ul>
             </nav>
         </div>
         <!---Landing Section-->
-        <div class="landing-section">  
+        <div class="landing-section" id="home">  
             <div class="landing-text">
                 <p>Hello, I'm <span class="highlight">Jorge Goris</span>.
                     <br> I'm a Front-end Web Developer.</p>
             </div>
             <div class="landing-btn-section">
-                <button class="landing-btn"><span>View my work<i class="fas fa-arrow-down"></i></span></button>
+                <a href="#portfolio" class="landing-btn scroll"><span>View my work<i class="fas fa-arrow-down"></i></span></a>
             </div>
         </div>
         <!--About Section-->
-        <div class="about-section">
+        <div class="about-section" id="about">
             <h2 class="about-section-title">About</h2>
             <div class="icon-section">
                 <div class="fast">
@@ -88,7 +88,7 @@
             </div>
         </div>
         <!--Project Section-->
-        <div class="project-section">
+        <div class="project-section" id="portfolio">
             <h2 class="project-section-title">Projects</h2>
             <div class="project-container">
                 <div class="work-1">
@@ -147,7 +147,7 @@
             </div>
         </div>
         <!--Contact Section-->
-        <div class="contact-section">
+        <div class="contact-section" id="contact">
             <div class="contact-section-text">
                 <h2 class="contact-section-title">Contact</h2>
                 <p class="contact-subtitle">Want to work together?</p>
@@ -161,14 +161,10 @@
             </form>
         </div>
         <footer>
-            <div class="top-btn"><i class="fas fa-chevron-up"></i></div>
+            <a href="#home" class="scroll"><div class="top-btn"><i class="fas fa-chevron-up"></i></div></a>
             <div class="footer-icons">
-                <div class="footer-icon-1">
-                    <a href="https://www.linkedin.com/in/jorge-goris/" target="_blank"><i class="fab fa-linkedin-in fa-lg"></i></a>
-                </div>
-                <div class="footer-icon-2">
-                    <a href="https://github.com/JorgeG1105" target="_blank"><i class="fab fa-github fa-lg"></i></a>
-                </div>
+                <a href="https://www.linkedin.com/in/jorge-goris/" target="_blank"><div class="footer-icon-1"><i class="fab fa-linkedin-in fa-lg"></i></div></a>
+                <a href="https://github.com/JorgeG1105" target="_blank"><div class="footer-icon-2"><i class="fab fa-github fa-lg"></i></div></a>
             </div>
             <div class="copyright-info">Jorge Goris &copy; <span class="footer-year">2018</span></div>
         </footer>
