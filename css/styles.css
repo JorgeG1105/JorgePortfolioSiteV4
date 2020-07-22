@@ -553,7 +553,7 @@ footer {
     }
 }
 
-@media(orientation:landscape){
+@media(max-width: 1024px) and (orientation: landscape){
 
     /*-----------Navbar---------------------*/
 
@@ -567,11 +567,11 @@ footer {
     }
 
     .toggle {
-        display: none;
+        display: initial;
     }
 
     .item {
-        display: inline;
+        display: none;
     }
 
     /*-----------About Section--------------*/
