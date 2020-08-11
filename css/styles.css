@@ -262,6 +262,30 @@ ul a:hover {
     align-items: center;
 }
 
+.work-7 {
+    background: url(../imgs/work7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    max-width: 100%;
+    height: 240px;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-8 {
+    background: url(../imgs/work8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    max-width: 100%;
+    height: 240px;
+    justify-content: center;
+    align-items: center;
+}
+
 .work-text {
     justify-content: center;
     align-items: center;
